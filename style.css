@@ -161,3 +161,14 @@ footer a {
   color: var(--text-color);
   font-weight: 400;
 }
+
+/*media queries*/
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url("./assets/bg-desktop.jpg");
+  }
+
+  .light {
+    --bg-url: url("./assets/bg-desktop-light.jpg");
+  }
+}
